@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Buggy Taming Camp - P2 Prototype</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="game-shell">
+      <div class="top-bar">
+        <div>
+          <h1>Buggy Taming Camp</h1>
+          <p>Getting Started + Wild Area Welcome + Waterfall Key</p>
+        </div>
+        <div class="controls">
+          <span>Move: WASD / Arrows</span>
+          <span>Interact: E / Space</span>
+          <span>Inventory: I</span>
+          <span>Quest: Q</span>
+        </div>
+      </div>
+      <canvas id="game" width="960" height="640" aria-label="Buggy Taming Camp game canvas"></canvas>
+      <div class="mobile-actions">
+        <button id="interactButton" type="button">Interact</button>
+        <button id="inventoryButton" type="button">Inventory</button>
+        <button id="questButton" type="button">Quest</button>
+      </div>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>
